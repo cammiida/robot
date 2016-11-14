@@ -93,8 +93,8 @@ class Imager():
 
     def map_image2(self,func,image=False):
         im2 = image.copy() if image else self.image.copy()
-        for i in range(self.xmax):
-            for j in range(self.ymax):
+        for i in range(self.xmax-1):
+            for j in range(self.ymax-1):
                 im2.putpixel((i,j),func(im2.getpixel((i,j))))
         return Imager(image = im2)
 
