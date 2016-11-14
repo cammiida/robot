@@ -1,6 +1,5 @@
 import os
-from PIL import Image
-
+from imager2 import Image
 
 class Camera():
 
