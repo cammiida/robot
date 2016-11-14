@@ -36,21 +36,6 @@ class Imager():
     def get_image(self): return self.image
     def set_image(self,im): self.image = im
 
-    def get_red_percentage(self):
-        rgbs = {'red': 0}
-
-        total_pixels = self.xmax * self.ymax
-
-        for x in range(self.xmax):
-            for y in range(self.ymax):
-                rgb = self.get_pixel(x, y)
-                i = rgb.index(max(rgb))
-                if i == 0:
-                    rgbs['red'] += 1
-
-        rgbs['red'] = (rgbs['red'] / total_pixels) * 100
-
-        return rgbs
 
     def display(self):
         self.image.show()
@@ -93,8 +78,8 @@ class Imager():
 
     def map_image2(self,func,image=False):
         im2 = image.copy() if image else self.image.copy()
-        for i in range(self.xmax-1):
-            for j in range(self.ymax-1):
+        for i in range(self.xmax):
+            for j in range(self.ymax):
                 im2.putpixel((i,j),func(im2.getpixel((i,j))))
         return Imager(image = im2)
 
