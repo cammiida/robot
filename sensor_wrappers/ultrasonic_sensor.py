@@ -77,3 +77,6 @@ class Ultrasonic():
         # Dette er tur retur distansen. For aa faa distansen en vei deler vi bare paa 2
         distance = distance/2
         return distance
+
+u = Ultrasonic()
+print(u.sensor_get_value())
