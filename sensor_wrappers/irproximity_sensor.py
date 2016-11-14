@@ -26,5 +26,6 @@ class IRProximitySensor:
         GPIO.setup(self.read_pin_2, GPIO.IN)
         read_val_1 = GPIO.input(self.read_pin_1)
         read_val_2 = GPIO.input(self.read_pin_2)
+        print(read_val_1,read_val_2)
         # Invert the values, so that True means something is close
         return [not read_val_1, not read_val_2]
