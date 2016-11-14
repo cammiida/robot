@@ -1,5 +1,6 @@
 import os
-from imager2 import Image
+from imager2 import *
+
 
 class Camera():
 

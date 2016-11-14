@@ -1,5 +1,6 @@
 from sensobs.sensob import Sensob
 from sensor_wrappers.camera import Camera
+from imager2 import Imager
 
 
 class Camera_color_sensob(Sensob):
@@ -9,4 +10,4 @@ class Camera_color_sensob(Sensob):
 
     def update(self):
         values = super(Camera_color_sensob, self).update()
-        self.value = values[0].map_color_wta(thresh=0.50).get_red_percentage()
+        self.value = Imager().map_color_wta(image=values[0],thresh=0.50).get_red_percentage()
