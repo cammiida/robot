@@ -29,3 +29,4 @@ class IRProximitySensor:
         print(read_val_1,read_val_2)
         # Invert the values, so that True means something is close
         return [not read_val_1, not read_val_2]
+

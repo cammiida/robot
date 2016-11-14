@@ -9,10 +9,10 @@ from sensor_wrappers.ultrasonic_sensor import Ultrasonic
 class Ultrasonic_sensob(Sensob):
     def __init__(self):
         super(Ultrasonic_sensob, self).__init__()
-        self.sensor = Ultrasonic
+        self.sensor = Ultrasonic()
 
     def update(self, step = 0):
         if step % 3 == 0:
-            values = super(Ultrasonic_sensob, self).update()
+            values = self.sensor.update()
             print("VALUES:", values)
             #self.value = values[len(values)-1]

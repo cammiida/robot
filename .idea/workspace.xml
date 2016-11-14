@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b42538f-8c14-44bd-9205-20c18c584052" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sensobs/irproximity.py" afterPath="$PROJECT_DIR$/sensobs/irproximity.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sensobs/ultrasonic.py" afterPath="$PROJECT_DIR$/sensobs/ultrasonic.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sensor_wrappers/irproximity_sensor.py" afterPath="$PROJECT_DIR$/sensor_wrappers/irproximity_sensor.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sensor_wrappers/ultrasonic_sensor.py" afterPath="$PROJECT_DIR$/sensor_wrappers/ultrasonic_sensor.py" />
     </list>
     <ignored path="Oving 6.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -93,8 +94,8 @@
       <file leaf-file-name="irproximity_sensor.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sensor_wrappers/irproximity_sensor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="47" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
+            <state relative-caret-position="85">
+              <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -115,8 +116,8 @@
       <file leaf-file-name="sensob.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sensobs/sensob.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+            <state relative-caret-position="255">
+              <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -125,8 +126,8 @@
       <file leaf-file-name="ultrasonic.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sensobs/ultrasonic.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+            <state relative-caret-position="272">
+              <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -161,7 +162,6 @@
         <option value="$PROJECT_DIR$/basic_robot/sensobs/irproximity.py" />
         <option value="$PROJECT_DIR$/basic_robot/behaviors/follow_line.py" />
         <option value="$PROJECT_DIR$/basic_robot/behaviors/avoid_collisions.py" />
-        <option value="$PROJECT_DIR$/sensobs/irproximity.py" />
         <option value="$PROJECT_DIR$/sensobs/reflactance.py" />
         <option value="$PROJECT_DIR$/behaviors/follow_line.py" />
         <option value="$PROJECT_DIR$/arbitrator.py" />
@@ -169,12 +169,13 @@
         <option value="$PROJECT_DIR$/__init__.py" />
         <option value="$PROJECT_DIR$/sensor_wrappers/camera.py" />
         <option value="$PROJECT_DIR$/sensobs/reflectance.py" />
-        <option value="$PROJECT_DIR$/sensobs/ultrasonic.py" />
         <option value="$PROJECT_DIR$/imager2.py" />
         <option value="$PROJECT_DIR$/sensobs/camera_color.py" />
         <option value="$PROJECT_DIR$/behaviors/avoid_collisions.py" />
         <option value="$PROJECT_DIR$/sensor_wrappers/ultrasonic_sensor.py" />
         <option value="$PROJECT_DIR$/sensor_wrappers/irproximity_sensor.py" />
+        <option value="$PROJECT_DIR$/sensobs/ultrasonic.py" />
+        <option value="$PROJECT_DIR$/sensobs/irproximity.py" />
       </list>
     </option>
   </component>
@@ -697,14 +698,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sensobs/sensob.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/imager2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -753,26 +746,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sensobs/ultrasonic.py">
+    <entry file="file://$PROJECT_DIR$/sensor_wrappers/ultrasonic_sensor.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+        <state relative-caret-position="306">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sensor_wrappers/irproximity_sensor.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="47" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
+        <state relative-caret-position="85">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sensor_wrappers/ultrasonic_sensor.py">
+    <entry file="file://$PROJECT_DIR$/sensobs/sensob.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="255">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sensobs/ultrasonic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
           <folding />
         </state>
       </provider>
