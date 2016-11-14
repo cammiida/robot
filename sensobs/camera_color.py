@@ -1,5 +1,6 @@
 from sensobs.sensob import Sensob
 from sensor_wrappers.camera import Camera
+from imager2 import Imager
 
 
 class Camera_color_sensob(Sensob):
@@ -21,5 +22,5 @@ class Camera_color_sensob(Sensob):
 
     def update(self):
         values = super(Camera_color_sensob, self).update()
-        self.red_percentage(values[0])
+        self.red_percentage(Imager(values[0]))
         return self.red > 20
