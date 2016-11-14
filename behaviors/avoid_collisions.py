@@ -1,11 +1,11 @@
 from behaviors.behavior import Behavior
 from sensobs.ultrasonic import Ultrasonic_sensob
 from sensobs.irproximity import IRProximity_sensob
-from sensobs.camera_color import Camera_colors_sensob
+from sensobs.camera_color import Camera_color_sensob
 
 
 class Avoid_collisions_behavior(Behavior):
-    def __init__(self, distance_sensob = Ultrasonic_sensob(), ir_sensob=IRProximity_sensob(), camera_sensob = Camera_colors_sensob()):
+    def __init__(self, distance_sensob = Ultrasonic_sensob(), ir_sensob=IRProximity_sensob(), camera_sensob = Camera_color_sensob()):
         super(Avoid_collisions_behavior, self).__init__()
         self.sensobs = [distance_sensob, ir_sensob, camera_sensob]
 
