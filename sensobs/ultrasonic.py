@@ -11,7 +11,6 @@ class Ultrasonic_sensob(Sensob):
         super(Ultrasonic_sensob, self).__init__()
         self.sensor = Ultrasonic
 
-    def update(self, steps=0):
-        if steps % 3 == 0:
-            values = super(Ultrasonic_sensob, self).update()
-            self.value = values[0]
+    def update(self):
+        values = super(Ultrasonic_sensob, self).update()
+        self.value = values[0]
