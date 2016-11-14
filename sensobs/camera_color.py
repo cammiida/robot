@@ -21,4 +21,5 @@ class Camera_color_sensob(Sensob):
 
     def update(self):
         values = super(Camera_color_sensob, self).update()
+        self.red_percentage(values[0])
         return self.red > 20
