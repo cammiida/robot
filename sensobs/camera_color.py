@@ -10,7 +10,7 @@ class Camera_color_sensob(Sensob):
         rgbs =0
 
         for x in range(40,80):
-            rgb = image.getpixel(x, 48)
+            rgb = image.getpixel((x, 48))
             i = rgb.index(max(rgb))
             if i == 0:
                 rgbs += 1
