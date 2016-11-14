@@ -18,9 +18,9 @@ class Avoid_collisions_behavior(Behavior):
         self.active_flag = True
 
     def sense_and_act(self):
-        dist = self.sensobs[0].value
+        dist = self.sensobs[0].get_value()
 
-        ir = self.sensobs[1].value
+        ir = self.sensobs[1].get_value()
 
         red = self.sensobs[2].get_value()
         if red:

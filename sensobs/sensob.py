@@ -7,14 +7,7 @@ class Sensob:
         return self.value
 
     def update(self):
-        values = []
-
-        for sensor in self.sensors:
-            sensor.update()
-            values.append(sensor.get_value())
-
-        self.value = values
-        return values
+        pass
 
     def reset(self):
         for sensor in self.sensors:
