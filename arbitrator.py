@@ -7,7 +7,6 @@ class Arbitrator:
         self.bbcon = None
 
     def choose_action(self):
-        # TODO: Maybe add "stochasticity"?
         halt = False
         best_behavior = self.bbcon.active_behaviors[0]
         for behavior in self.bbcon.active_behaviors:

@@ -33,7 +33,6 @@ class Behavior:
             # tell sensobs we're not active
             return
         # tell sensobs we're active
-
         self.sense_and_act()
 
     def sense_and_act(self):

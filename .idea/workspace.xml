@@ -2,36 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b42538f-8c14-44bd-9205-20c18c584052" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/behaviors/avoid_collisions.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor_wrappers/__init__.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/basic_robot/.idea/basic_robot.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/basic_robot/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/basic_robot/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/basic_robot/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/basic_robot/.idea/workspace.xml" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/basic_robot/BBCON.py" afterPath="$PROJECT_DIR$/BBCON.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/basic_robot/__init__.py" afterPath="$PROJECT_DIR$/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/basic_robot/arbitrator.py" afterPath="$PROJECT_DIR$/arbitrator.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/basic_robot/behaviors/Behavior.py" afterPath="$PROJECT_DIR$/behaviors/Behavior.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/basic_robot/behaviors/__init__.py" afterPath="$PROJECT_DIR$/behaviors/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/basic_robot/image.png" afterPath="$PROJECT_DIR$/image.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/basic_robot/imager2.py" afterPath="$PROJECT_DIR$/imager2.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/basic_robot/motob.py" afterPath="$PROJECT_DIR$/motob.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/basic_robot/motors.py" afterPath="$PROJECT_DIR$/motors.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/basic_robot/robodemo.py" afterPath="$PROJECT_DIR$/robodemo.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/basic_robot/sensobs/__init__.py" afterPath="$PROJECT_DIR$/behaviors/follow_line.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/basic_robot/sensobs/irproximity.py" afterPath="$PROJECT_DIR$/sensobs/irproximity.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/basic_robot/sensobs/reflactance.py" afterPath="$PROJECT_DIR$/sensobs/reflactance.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/basic_robot/sensobs/sensob.py" afterPath="$PROJECT_DIR$/sensobs/sensob.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/basic_robot/sensobs/ultrasonic.py" afterPath="$PROJECT_DIR$/sensobs/ultrasonic.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/basic_robot/sensor_wrappers/__init__.py" afterPath="$PROJECT_DIR$/sensobs/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/basic_robot/sensor_wrappers/camera.py" afterPath="$PROJECT_DIR$/sensor_wrappers/camera.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/basic_robot/sensor_wrappers/irproximity_sensor.py" afterPath="$PROJECT_DIR$/sensor_wrappers/irproximity_sensor.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/basic_robot/sensor_wrappers/reflectance_sensors.py" afterPath="$PROJECT_DIR$/sensor_wrappers/reflectance_sensors.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/basic_robot/sensor_wrappers/ultrasonic_sensor.py" afterPath="$PROJECT_DIR$/sensor_wrappers/ultrasonic_sensor.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/basic_robot/zumo_button.py" afterPath="$PROJECT_DIR$/zumo_button.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensobs/camera_color.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/behaviors/Behavior.py" afterPath="$PROJECT_DIR$/behaviors/behavior.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sensobs/reflactance.py" afterPath="$PROJECT_DIR$/sensobs/reflectance.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/__init__.py" afterPath="$PROJECT_DIR$/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arbitrator.py" afterPath="$PROJECT_DIR$/arbitrator.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/behaviors/avoid_collisions.py" afterPath="$PROJECT_DIR$/behaviors/avoid_collisions.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/behaviors/follow_line.py" afterPath="$PROJECT_DIR$/behaviors/follow_line.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/imager2.py" afterPath="$PROJECT_DIR$/imager2.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sensobs/irproximity.py" afterPath="$PROJECT_DIR$/sensobs/irproximity.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sensobs/ultrasonic.py" afterPath="$PROJECT_DIR$/sensobs/ultrasonic.py" />
     </list>
     <ignored path="Oving 6.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -55,9 +36,21 @@
       <file leaf-file-name="BBCON.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BBCON.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="358">
+              <caret line="42" column="24" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="imager2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/imager2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="477">
+              <caret line="104" column="17" selection-start-line="104" selection-start-column="17" selection-end-line="104" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -69,31 +62,79 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="robodemo.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/robodemo.py">
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#33#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="behavior.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/behaviors/behavior.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="6" column="34" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="motors.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/motors.py">
+      <file leaf-file-name="avoid_collisions.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/behaviors/avoid_collisions.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="300">
+              <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="camera_color.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sensobs/camera_color.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#33#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="motob.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/motob.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="41" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="reflectance.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sensobs/reflectance.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="34">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#33#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="arbitrator.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/arbitrator.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -128,6 +169,18 @@
         <option value="$PROJECT_DIR$/basic_robot/sensobs/irproximity.py" />
         <option value="$PROJECT_DIR$/basic_robot/behaviors/follow_line.py" />
         <option value="$PROJECT_DIR$/basic_robot/behaviors/avoid_collisions.py" />
+        <option value="$PROJECT_DIR$/sensobs/irproximity.py" />
+        <option value="$PROJECT_DIR$/sensobs/reflactance.py" />
+        <option value="$PROJECT_DIR$/behaviors/follow_line.py" />
+        <option value="$PROJECT_DIR$/sensobs/ultrasonic.py" />
+        <option value="$PROJECT_DIR$/__init__.py" />
+        <option value="$PROJECT_DIR$/arbitrator.py" />
+        <option value="$PROJECT_DIR$/sensor_wrappers/camera.py" />
+        <option value="$PROJECT_DIR$/imager2.py" />
+        <option value="$PROJECT_DIR$/sensobs/reflectance.py" />
+        <option value="$PROJECT_DIR$/behaviors/behavior.py" />
+        <option value="$PROJECT_DIR$/behaviors/avoid_collisions.py" />
+        <option value="$PROJECT_DIR$/sensobs/camera_color.py" />
       </list>
     </option>
   </component>
@@ -139,8 +192,8 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="773" />
+    <option name="width" value="1440" />
+    <option name="height" value="873" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -168,6 +221,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -186,13 +240,54 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="robot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="robot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sensor_wrappers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="robot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="robot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sensobs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="robot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="robot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="behaviors" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/tdt4160-bundle" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -422,6 +517,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="6b42538f-8c14-44bd-9205-20c18c584052" name="Default" comment="" />
@@ -433,13 +531,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="773" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="873" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18046875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18402778" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -451,7 +550,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -492,47 +590,39 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/basic_robot/sensor_wrappers/irproximity_sensor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic_robot/BBCON.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic_robot/behaviors/Behavior.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic_robot/sensobs/reflactance.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic_robot/sensobs/ultrasonic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="45" selection-start-line="3" selection-start-column="0" selection-end-line="6" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic_robot/sensor_wrappers/ultrasonic_sensor.py">
+    <entry file="file://$PROJECT_DIR$/basic_robot/BBCON.py" />
+    <entry file="file://$PROJECT_DIR$/basic_robot/behaviors/Behavior.py" />
+    <entry file="file://$PROJECT_DIR$/basic_robot/sensobs/reflactance.py" />
+    <entry file="file://$PROJECT_DIR$/basic_robot/sensobs/ultrasonic.py" />
+    <entry file="file://$PROJECT_DIR$/basic_robot/sensor_wrappers/ultrasonic_sensor.py" />
+    <entry file="file://$PROJECT_DIR$/basic_robot/sensobs/irproximity.py" />
+    <entry file="file://$PROJECT_DIR$/basic_robot/sensor_wrappers/reflectance_sensors.py" />
+    <entry file="file://$PROJECT_DIR$/basic_robot/sensobs/sensob.py" />
+    <entry file="file://$PROJECT_DIR$/basic_robot/arbitrator.py" />
+    <entry file="file://$PROJECT_DIR$/basic_robot/sensor_wrappers/camera.py" />
+    <entry file="file://$PROJECT_DIR$/basic_robot/motors.py" />
+    <entry file="file://$PROJECT_DIR$/basic_robot/sensor_wrappers/camera.py" />
+    <entry file="file://$PROJECT_DIR$/basic_robot/motors.py" />
+    <entry file="file://$PROJECT_DIR$/basic_robot/sensor_wrappers/camera.py" />
+    <entry file="file://$PROJECT_DIR$/basic_robot/image.png" />
+    <entry file="file://$PROJECT_DIR$/basic_robot/robodemo.py" />
+    <entry file="file://$PROJECT_DIR$/basic_robot/motob.py" />
+    <entry file="file://$PROJECT_DIR$/basic_robot/sensor_wrappers/camera.py" />
+    <entry file="file://$PROJECT_DIR$/basic_robot/motors.py" />
+    <entry file="file://$PROJECT_DIR$/basic_robot/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/basic_robot/BBCON.py" />
+    <entry file="file://$PROJECT_DIR$/basic_robot/arbitrator.py" />
+    <entry file="file://$PROJECT_DIR$/basic_robot/sensor_wrappers/irproximity_sensor.py" />
+    <entry file="file://$PROJECT_DIR$/basic_robot/sensor_wrappers/ultrasonic_sensor.py" />
+    <entry file="file://$PROJECT_DIR$/basic_robot/sensor_wrappers/reflectance_sensors.py" />
+    <entry file="file://$PROJECT_DIR$/basic_robot/sensobs/irproximity.py" />
+    <entry file="file://$PROJECT_DIR$/basic_robot/sensobs/reflactance.py" />
+    <entry file="file://$PROJECT_DIR$/basic_robot/sensobs/ultrasonic.py" />
+    <entry file="file://$PROJECT_DIR$/basic_robot/behaviors/follow_line.py" />
+    <entry file="file://$PROJECT_DIR$/basic_robot/behaviors/Behavior.py" />
+    <entry file="file://$PROJECT_DIR$/basic_robot/behaviors/avoid_collisions.py" />
+    <entry file="file://$PROJECT_DIR$/basic_robot/sensobs/sensob.py" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -540,143 +630,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basic_robot/sensobs/irproximity.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic_robot/sensor_wrappers/reflectance_sensors.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic_robot/sensobs/sensob.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic_robot/arbitrator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="78" selection-start-line="17" selection-start-column="78" selection-end-line="17" selection-end-column="78" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic_robot/sensor_wrappers/camera.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic_robot/motors.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic_robot/sensor_wrappers/camera.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic_robot/motors.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic_robot/sensor_wrappers/camera.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic_robot/image.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic_robot/robodemo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic_robot/motob.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic_robot/sensor_wrappers/camera.py">
+    <entry file="file://$PROJECT_DIR$/sensobs/ultrasonic.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#33#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sensor_wrappers/camera.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sensor_wrappers/irproximity_sensor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="47" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basic_robot/motors.py">
+    <entry file="file://$PROJECT_DIR$/sensobs/irproximity.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="28" column="51" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
+        <state relative-caret-position="238">
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basic_robot/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic_robot/BBCON.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic_robot/arbitrator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="78" selection-start-line="17" selection-start-column="78" selection-end-line="17" selection-end-column="78" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic_robot/sensor_wrappers/irproximity_sensor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic_robot/sensor_wrappers/ultrasonic_sensor.py">
+    <entry file="file://$PROJECT_DIR$/sensobs/sensob.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -684,81 +676,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basic_robot/sensor_wrappers/reflectance_sensors.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic_robot/sensobs/irproximity.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic_robot/sensobs/reflactance.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic_robot/sensobs/ultrasonic.py">
+    <entry file="file://$PROJECT_DIR$/behaviors/follow_line.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="45" selection-start-line="3" selection-start-column="0" selection-end-line="6" selection-end-column="45" />
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic_robot/behaviors/follow_line.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic_robot/behaviors/Behavior.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic_robot/behaviors/avoid_collisions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic_robot/sensobs/sensob.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BBCON.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/image.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/robodemo.py">
@@ -771,17 +694,96 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/motors.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="-765">
+          <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/behaviors/behavior.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="34" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sensobs/reflectance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imager2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="104" column="17" selection-start-line="104" selection-start-column="17" selection-end-line="104" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/motob.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="41" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="41" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BBCON.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="42" column="24" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arbitrator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/behaviors/avoid_collisions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sensobs/camera_color.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

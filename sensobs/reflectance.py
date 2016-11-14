@@ -1,6 +1,5 @@
-from basic_robot.sensobs.sensob import Sensob
-from basic_robot.sensor_wrappers.reflectance_sensors import ReflectanceSensors
-
+from sensobs.sensob import Sensob
+from sensor_wrappers.reflectance_sensors import ReflectanceSensors
 
 #her skal vi ta inn verdi fra sensor og gjøre den om til en liste med to tall
 #de tallene skal representere hvor linjen befinner seg under roboten
@@ -13,4 +12,5 @@ class Reflectance_sensob(Sensob):
 
     def update(self):
         values = super(Reflectance_sensob, self).update()
+        self.value = values[0]
         # så lag funksjon som finner ut hvor linjen mest snnsynlig er her
