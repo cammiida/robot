@@ -15,4 +15,4 @@ class Ultrasonic_sensob(Sensob):
         if step % 3 == 0:
             values = super(Ultrasonic_sensob, self).update()
             print("VALUES:", values)
-            #self.value = values[0]
+            #self.value = values[len(values)-1]
