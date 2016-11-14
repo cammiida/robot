@@ -22,8 +22,8 @@ class Avoid_collisions_behavior(Behavior):
 
         ir = self.sensobs[1].value
 
-        color_percentage = self.sensobs[2][0].get_value()
-        if color_percentage['red'] >= 10:
+        red = self.sensobs[2].get_value()
+        if red:
             self.motor_recommendations = [(1,1), 2]
             self.match_degree = 1
 
