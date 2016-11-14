@@ -4,7 +4,7 @@ from sensor_wrappers.camera import Camera
 class Camera_color_sensob(Sensob):
     def __init__(self):
         super(Camera_color_sensob, self).__init__()
-        self.sensors = [Camera()]
+        self.sensor = Camera()
 
     def red_percentage(self, image):
         rgbs =0
@@ -19,6 +19,6 @@ class Camera_color_sensob(Sensob):
 
 
     def update(self):
-        values = super(Camera_color_sensob, self).update()
-        self.red_percentage(values[0])
+        value = self.sensor.update()
+        self.red_percentage(value)
         return self.red > 20
