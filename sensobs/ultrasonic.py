@@ -13,4 +13,5 @@ class Ultrasonic_sensob(Sensob):
 
     def update(self):
         values = super(Ultrasonic_sensob, self).update()
-        self.value = values[0]
+        print("VALUES:", values)
+        #self.value = values[0]
