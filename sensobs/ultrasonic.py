@@ -13,6 +13,6 @@ class Ultrasonic_sensob(Sensob):
 
     def update(self, step = 0):
         if step % 3 == 0:
-            values = self.sensor.update()
-            print("VALUES:", values)
-            #self.value = values[len(values)-1]
+            value = self.sensor.update()
+            print("VALUES:", value)
+            self.value = value
