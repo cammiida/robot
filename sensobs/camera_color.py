@@ -14,7 +14,7 @@ class Camera_color_sensob(Sensob):
                 rgb = image.getpixel((x, y))
                 asd['rod'] += rgb[0]
                 asd['gronn'] += rgb[1]
-                asd['bla'] += rgb[2]
+                asd['blaa'] += rgb[2]
 
         totalt = asd['rod'] + asd['gronn'] + asd['blaa']
         gronn = (asd['gronn'] / totalt) * 100
