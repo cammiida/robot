@@ -22,9 +22,11 @@ class Follow_line_behavior(Behavior):
         if (values[0] < thresh or values[1] < thresh):
             self.match_degree = 1
             self.motor_recommendations = [(0.5, -0.5)]
+            print("Singer til høyre")
         elif (values[4] < thresh or values[5] < thresh):
             self.match_degree = 1
             self.motor_recommendations = [(-0.5, 0.5)]
+            print("Singer til venstre")
         else:
             self.match_degree = 0.3
             self.motor_recommendations = [(0.5, 0.5)]
