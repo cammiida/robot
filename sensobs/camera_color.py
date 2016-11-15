@@ -21,7 +21,7 @@ class Camera_color_sensob(Sensob):
         blaa = (asd['blaa'] / totalt) * 100
         self.red = (asd['rod'] / totalt) * 100
         print("RGB:", self.red, gronn, blaa)
-        if self.red > 3*gronn and self.red > 3*blaa:
+        if self.red > 2*gronn and self.red > 2*blaa:
             return True
 
 
