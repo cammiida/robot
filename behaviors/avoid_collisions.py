@@ -32,8 +32,7 @@ class Avoid_collisions_behavior(Behavior):
             self.motor_recommendations = [(0,0)]
             if self.sensobs[2].update():
                 print("RODT RODT!")
-                exit()
-                self.motor_recommendations = [(0.5, 0.5), 2]
+                self.motor_recommendations = [(1, 1), 1]
                 self.match_degree = 1
             else:
                 print("ikke rodt, snu til venstre")# turn left
