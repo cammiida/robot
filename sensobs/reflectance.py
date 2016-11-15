@@ -8,9 +8,9 @@ from sensor_wrappers.reflectance_sensors import ReflectanceSensors
 class Reflectance_sensob(Sensob):
     def __init__(self):
         super(Reflectance_sensob, self).__init__()
-        self.sensors = [ReflectanceSensors()]
+        self.sensors = ReflectanceSensors()
 
     def update(self):
-        values = super(Reflectance_sensob, self).update()
+        values = self.sensors.update()
+        print("Reflectance", values)
         self.value = values[0]
-        # så lag funksjon som finner ut hvor linjen mest snnsynlig er her
