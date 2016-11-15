@@ -23,22 +23,25 @@ class Avoid_collisions_behavior(Behavior):
         ir = self.sensobs[1].get_value()
 
         if ir[0]:
-            self.motor_recommendations = [(1, -1)]
+            self.motor_recommendations = [(0.5, -0.5)]
             self.match_degree = 1
         elif ir[1]:
-            self.motor_recommendations = [(-1, 1)]
+            self.motor_recommendations = [(-0.5, 0.5)]
             self.match_degree = 1
-        elif dist > 15:
-            self.motor_recommendations = [(0.5, 0.5)]
-            self.match_degree = 0.1
         elif dist < 10:
             self.motor_recommendations = [(0,0)]
             red = self.sensobs[2].get_value()
             if red:
                 self.motor_recommendations = [(0.5, 0.5), 2]
                 self.match_degree = 1
-
+            else:
+                # turn left
+                self.motor_recommendations = [(-0.5, 0.5)]
+                self.match_degree = 1
+        elif dist > 15:
+            self.motor_recommendations = [(0.5, 0.5)]
+            self.match_degree = 0.1
         else:
             # turn right
-            self.motor_recommendations = [(1, -1)]
+            self.motor_recommendations = [(0.5, -0.5)]
             self.match_degree = 1
