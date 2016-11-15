@@ -7,18 +7,24 @@ class Camera_color_sensob(Sensob):
         self.sensor = Camera()
 
     def red_percentage(self, image):
-        rgbs =0
+        asd = {'rod': 0, 'gronn': 0, 'blaa': 0}
 
         for x in range(40,80):
-            rgb = image.getpixel((x, 48))
-            i = rgb.index(max(rgb))
-            if i == 0:
-                rgbs += 1
+            for y in range (40,50):
+                rgb = image.getpixel((x, y))
+                asd['rod'] += rgb[0]
+                asd['gronn'] += rgb[1]
+                asd['bla'] += rgb[2]
 
-        self.red = (rgbs / 40) * 100
+        totalt = asd['rod'] + asd['gronn'] + asd['blaa']
+        gronn = (asd['gronn'] / totalt) * 100
+        blaa = (asd['blaa'] / totalt) * 100
+        self.red = (asd['rod'] / totalt) * 100
+        if self.red > 3*gronn and self.red > 3*blaa:
+            return True
+
 
 
     def update(self):
         value = self.sensor.update()
-        self.red_percentage(value)
-        return self.red > 20
+        return self.red_percentage(value)
