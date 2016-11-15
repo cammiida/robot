@@ -26,6 +26,7 @@ class Camera():
         # Open the image just taken by raspicam
         # Stores the RGB array in the value field
         self.value = Image.open('image.png').convert('RGB')
+        self.value.save('image.png')
 
 # Just testing the camera in python
 
