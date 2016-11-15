@@ -6,6 +6,10 @@ class Sensob:
     def get_value(self):
         return self.value
 
+    def reset(self):
+        for sensor in self.sensors:
+            sensor.reset()
+"""
     def update(self):
         values = []
 
@@ -16,6 +20,4 @@ class Sensob:
         self.value = values
         return values
 
-    def reset(self):
-        for sensor in self.sensors:
-            sensor.reset()
+"""

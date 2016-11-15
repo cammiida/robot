@@ -30,7 +30,6 @@ class BBCON:
         for sensob in self.sensobs:
             sensob.update()
 
-
         for behavior in self.behaviors:
             behavior.update()
             if behavior.active_flag:

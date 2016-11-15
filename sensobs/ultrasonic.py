@@ -12,6 +12,5 @@ class Ultrasonic_sensob(Sensob):
         self.sensor = Ultrasonic()
 
     def update(self):
-        value = self.sensor.update()
-        print("VALUES:", value)
-        self.value = value
+        self.value = self.sensor.update()
+        print("VALUES:", self.value)

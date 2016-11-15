@@ -8,9 +8,8 @@ from sensor_wrappers.reflectance_sensors import ReflectanceSensors
 class Reflectance_sensob(Sensob):
     def __init__(self):
         super(Reflectance_sensob, self).__init__()
-        self.sensors = ReflectanceSensors()
+        self.sensor = ReflectanceSensors()
 
     def update(self):
-        values = self.sensors.update()
-        print("Reflectance", values)
-        self.value = values[0]
+        self.value = self.sensor.update()
+        print("Reflectance", self.value)
