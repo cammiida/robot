@@ -30,8 +30,7 @@ class Avoid_collisions_behavior(Behavior):
             self.match_degree = 1
         elif dist < 10:
             self.motor_recommendations = [(0,0)]
-            red = self.sensobs[2].get_value()
-            if red:
+            if self.sensobs[2].get_value():
                 print("RODT RODT!")
                 self.motor_recommendations = [(0.5, 0.5), 2]
                 self.match_degree = 1
